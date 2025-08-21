@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Comic Zine';
+    src: url('/public/fonts/ComicZine.woff2') format('woff2'),
+         url('/public/fonts/ComicZine.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mr Scripton';
+    src: url('/public/fonts/Scripto.woff2') format('woff2'),
+         url('/public/fonts/Scripto.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-outline {
+    -webkit-text-stroke: 1px black; /* Increase thickness */
+    color: #FFE7D1; /* Inner text color */
+  }
